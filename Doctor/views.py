@@ -1,13 +1,4 @@
-"""from django.http import HttpResponse
-from django.shortcuts import render
 
-# Create your views here.
-
-def index(request):
-    return HttpResponse("Doctor Appointment")
-
-def detail(request, client_num):
-    return HttpResponse("Details of" + "  " + client_num)"""
 
 from django.http.response import HttpResponseRedirect
 from django.shortcuts import render
